@@ -1,0 +1,19 @@
+{
+    "courses": {
+        "html": {
+            "colour": "blue",
+            "title": "HTML",
+            "description": "Lorem ipsum dolor sit amet..."
+        },
+        "css": {
+            "colour": "yellow",
+            "title": "CSS",
+            "description": "Cascading Style Sheets... a language to style web pages"
+        },
+        "JavaScript": {
+            "colour": "red",
+            "title": "JavaScript",
+            "description": "A scripting language used on the Web"
+        }
+    }
+}
