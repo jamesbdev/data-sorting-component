@@ -5,13 +5,11 @@ import React from "react";
 // style course card
 // add colour 
 
-const CourseCard = () => {
+const CourseCard = (props) => {
     return(
         <div>
-            /* Course title */
-            <h3>HTML</h3>
-            <p>Lorem ipsum dolor sit amet...</p>
-            /* description */
+            <h3>{props.title}</h3>
+            <p>{props.description}</p>
         </div>
     )
 }

@@ -3,6 +3,12 @@ import localFont from "next/font/local";
 import { Inter } from 'next/font/google';
 import Search from "@/components/Search";
 import Title from "@/components/Title";
+import CourseCard from "@/components/CourseCard";
+import data from "../../public/data.json"
+import Courses from "@/components/Courses";
+import Navigation from "@/components/Navigation";
+
+const courses = data.courses
 
 const inter = Inter({
   subsets: ['latin'],
@@ -28,14 +34,10 @@ export default function Home() {
     <Title />
     <main className={inter.className}>
      <Search />
-      {/* layout icons */}
-      <nav className="layout-icons">
-        <ul>
-          <li>Grid</li>
-          <li>List</li>
-        </ul>
-      </nav>
-      {/* course cards */}
+     <Navigation />
+     
+     <Courses />
+
     </main>
   
 
