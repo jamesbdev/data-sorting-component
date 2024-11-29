@@ -57,4 +57,14 @@ input#search {
   background-size: 15px;
 }
 
+.navigation-list {
+  display: flex;
+  gap: 1rem;
+}
+
+.search-container {
+  display: flex;
+  justify-content: space-between;
+}
+
 

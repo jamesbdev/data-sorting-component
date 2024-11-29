@@ -33,8 +33,12 @@ export default function Home() {
    <div>
     <Title />
     <main className={inter.className}>
-     <Search />
-     <Navigation />
+      <div className="search-container">
+      <Search />
+      <Navigation />
+
+      </div>
+   
      
      <Courses />
 
