@@ -30,8 +30,9 @@ main {
 
 h1 {
   text-transform: capitalize;
-  font-size: 24px;
-  padding-bottom: 3rem;
+  font-size: 44px;
+  padding-bottom: 1rem;
+
 }
 
 .container {
@@ -42,7 +43,18 @@ h1 {
 .course-card {
   height: 200px;
   border: 2px solid black;
-  
+
+}
+
+input#search {
+  border-radius: 1rem;
+  background-color: #545b54;
+  padding: 0.5rem 0.5rem 0.5rem 2rem;
+  margin-bottom: 2rem;
+  background-image: url('../../public/search_icon.png');
+  background-position: 0.6rem 0.6rem;
+  background-repeat: no-repeat;
+  background-size: 15px;
 }
 
 
