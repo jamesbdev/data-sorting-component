@@ -7,7 +7,7 @@ import React from "react";
 
 const CourseCard = (props) => {
     return(
-        <div>
+        <div className="course-card">
             <h3>{props.title}</h3>
             <p>{props.description}</p>
         </div>

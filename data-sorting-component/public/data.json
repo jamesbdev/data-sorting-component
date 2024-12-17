@@ -3,17 +3,20 @@
         "html": {
             "colour": "blue",
             "title": "HTML",
-            "description": "Lorem ipsum dolor sit amet..."
+            "description": "Lorem ipsum dolor sit amet...",
+            "status": "completed"
         },
         "css": {
             "colour": "yellow",
             "title": "CSS",
-            "description": "Cascading Style Sheets... a language to style web pages"
+            "description": "Cascading Style Sheets... a language to style web pages",
+            "status": "completed"
         },
         "JavaScript": {
             "colour": "red",
             "title": "JavaScript",
-            "description": "A scripting language used on the Web"
+            "description": "A scripting language used on the Web",
+            "status": "completed"
         }
     }
 }
