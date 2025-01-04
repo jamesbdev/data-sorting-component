@@ -1,12 +1,12 @@
 {
     "courses": {
-        "html": {
+        "HTML": {
             "colour": "blue",
             "title": "HTML",
             "description": "Lorem ipsum dolor sit amet...",
             "status": "completed"
         },
-        "css": {
+        "CSS": {
             "colour": "yellow",
             "title": "CSS",
             "description": "Cascading Style Sheets... a language to style web pages",
@@ -17,6 +17,37 @@
             "title": "JavaScript",
             "description": "A scripting language used on the Web",
             "status": "completed"
+        },
+        "Python": {
+            "colour": "purple",
+            "title": "Python",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis euismod est at orci rutrum tempor.",
+            "status": "not started"
+        },
+        "React": {
+            "colour": "turquoise",
+            "title": "React",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis euismod est at orci rutrum tempor.",
+            "status": "in progress"
+        },
+        "Vue": {
+            "colour": "green",
+            "title": "Vue",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis euismod est at orci rutrum tempor.",
+            "status": "not started"
+        },
+        "Angular": {
+            "colour": "pink",
+            "title": "Angular",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis euismod est at orci rutrum tempor.",
+            "status": "not started"
+        },
+        "NPM": {
+            "colour": "lightgreen",
+            "title": "NPM",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis euismod est at orci rutrum tempor.",
+            "status": "in progress"
         }
+
     }
 }

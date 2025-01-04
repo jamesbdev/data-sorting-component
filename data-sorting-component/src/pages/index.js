@@ -5,6 +5,7 @@ import Search from "@/components/Search";
 import Title from "@/components/Title";
 import Courses from "@/components/Courses";
 import Navigation from "@/components/Navigation";
+import { useState } from 'react';
 
 
 
@@ -27,18 +28,20 @@ const geistMono = localFont({
 
 
 export default function Home() {
+  const [layout, setLayout] = useState('grid');
+
   return (
    <div>
     <Title />
     <main className={inter.className}>
       <div className="search-container">
       <Search />
-      <Navigation />
+      <Navigation layout={layout}/>
 
       </div>
    
      
-     <Courses />
+     <Courses layout={layout}/>
 
     </main>
   

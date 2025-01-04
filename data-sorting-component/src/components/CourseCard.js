@@ -7,9 +7,18 @@ import React from "react";
 
 const CourseCard = (props) => {
     return(
-        <div className="course-card">
-            <h3>{props.title}</h3>
-            <p>{props.description}</p>
+        <div className="course-card space-x-2.5">
+            <div className="text-container">
+                <div className="flex justify-between">
+                    <h3>{ props.title }</h3>
+                    <span>{ props.status }</span>
+                  
+                </div>
+             
+                <p>{ props.description }</p>
+               
+            </div>
+         
         </div>
     )
 }

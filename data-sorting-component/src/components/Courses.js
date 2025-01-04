@@ -8,15 +8,18 @@ const courses = data.courses;
 console.log("courses: ", courses);
 
 
-const Courses = () => {
+const Courses = (props) => {
+    console.log(props.layout)
     const courseKeys = Object.keys(courses);
     return (
-        <div className="courses-container">
+        <div className="flex flex-wrap justify-center gap-x-7 courses-container">
             {courseKeys.map((key, index) => (
                 <CourseCard 
                 key= {index}
                 title={key}
                 description={courses[key].description}
+                status={courses[key].status}
+                color={courses[key].colour}
                 />
             ))}
         </div>
