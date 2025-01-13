@@ -7,8 +7,6 @@ import Courses from "@/components/Courses";
 import Navigation from "@/components/Navigation";
 import { useState } from 'react';
 
-
-
 const inter = Inter({
   subsets: ['latin'],
   weight: ['400', '600', '700'],
@@ -28,7 +26,14 @@ const geistMono = localFont({
 
 
 export default function Home() {
+  //add state for the layout
   const [layout, setLayout] = useState('grid');
+
+  //function to change the layout state
+  const handleLayoutChange = (newLayout) => {
+    //update layout state
+    setLayout(newLayout)
+  }
 
   return (
    <div>
@@ -36,7 +41,7 @@ export default function Home() {
     <main className={inter.className}>
       <div className="search-container">
       <Search />
-      <Navigation layout={layout}/>
+      <Navigation layout={layout} onLayoutChange={handleLayoutChange}/>
 
       </div>
    

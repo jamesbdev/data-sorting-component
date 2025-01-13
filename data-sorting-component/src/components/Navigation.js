@@ -5,21 +5,19 @@ import Image from 'next/image'
 //navigation to toggle list format or grid format
 //default is grid 
 
-const Navigation = () => {
+const Navigation = ({ layout, onLayoutChange }) => {
   //declare state for the layout
 
   function displayGrid() {
     console.log("grid");
-    //setLayout("grid")
-    //display grid layout 
-    //change classes to show grid
+    onLayoutChange("grid");
   }
 
   function displayList() {
     //display list layout 
     //change CSS classes to show list
     console.log("List")
-    //setLayout("list")
+    onLayoutChange("list")
   }
   return (
     <>
