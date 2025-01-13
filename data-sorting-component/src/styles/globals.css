@@ -85,4 +85,16 @@ input#search {
   justify-content: space-between;
 }
 
+.completed {
+  color: green;
+}
+
+.in-progress {
+  color: gold;
+}
+
+.inactive {
+  color: grey;
+}
+
 
